@@ -1,5 +1,5 @@
 import { PNG } from "https://taisukef.github.io/PNG/PNG.js";
-import { PANCAKE_COLORS } from "../PANCAKE_COLORS.js";
+import { PANCAKE_COLORS } from "./PANCAKE_COLORS.js";
 
 const getIndex = (palette, r, g, b) => {
   for (let i = 0; i < palette.length; i++) {
