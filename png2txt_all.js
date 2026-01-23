@@ -5,7 +5,8 @@ const list = [];
 const data = await CSV.fetchJSON("./sprites1.csv");
 for (const item of data) {
   const fn = "img/" + item.fn;
-  const transparent = item.fn[item.fn.lastIndexOf(".") - 1];
+  const t = item.fn[item.fn.lastIndexOf(".") - 1];
+  const transparent = t == "_" ? -1 : t;
   const bin = await Deno.readFile(fn);
   const txt = png2txt(bin);
   const name = item.fn.substring(0, item.fn.lastIndexOf(".", item.fn.length - 5));
