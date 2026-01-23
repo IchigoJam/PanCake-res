@@ -30,8 +30,8 @@ export const PANCAKE_SPRITES = [
     "txt": "11111111\n11100111\n11166111\n1a6aa6a1\n111aa111\n11bbbb11\n1b1111b1\n00111100"
   },
   {
-    "name": "",
-    "transparent": 13,
+    "name": "boystand",
+    "transparent": 1,
     "txt": "11100111\n11166111\n11aaaa11\n1a1aa1a1\n611aa116\n111bb111\n11b11b11\n00111100"
   },
   {
@@ -151,7 +151,7 @@ export const PANCAKE_SPRITES = [
   },
   {
     "name": "ichigo",
-    "transparent": 1,
+    "transparent": 15,
     "txt": "ffff8fff\nff22288f\nf212299f\nf2202298\nf222222f\nf222022f\nff2222ff\nffffffff"
   },
   {
@@ -471,37 +471,37 @@ export const PANCAKE_SPRITES = [
   },
   {
     "name": "brick",
-    "transparent": null,
+    "transparent": -1,
     "txt": "77777777\n72222222\n72222222\n72222222\n77777777\n22227222\n22227222\n22227222"
   },
   {
     "name": "desert",
-    "transparent": null,
+    "transparent": -1,
     "txt": "49949444\n49949444\n49949444\n49994444\n49944444\n49944444\n44444444\n44444444"
   },
   {
     "name": "grass",
-    "transparent": null,
+    "transparent": -1,
     "txt": "88888888\n88888888\n98988888\n89888888\n88888888\n88889898\n88888988\n88888888"
   },
   {
     "name": "sand",
-    "transparent": null,
+    "transparent": -1,
     "txt": "66666666\n66666666\n66666446\n66666666\n66666666\n66666666\n64466666\n66666666"
   },
   {
     "name": "paddies",
-    "transparent": null,
+    "transparent": -1,
     "txt": "77777777\n97977777\n97977777\n97977777\n77779797\n77779797\n77779797\n77777777"
   },
   {
     "name": "marsh",
-    "transparent": null,
+    "transparent": -1,
     "txt": "99999999\n99999999\n89899999\n89899999\n99999999\n99998989\n99998989\n99999999"
   },
   {
     "name": "poison",
-    "transparent": null,
+    "transparent": -1,
     "txt": "dddddddd\ndddddddd\nddeddddd\ndddddddd\ndddddddd\ndddddcdd\ndddddddd\ndddddddd"
   },
   {
